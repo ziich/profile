@@ -1,0 +1,97 @@
+h1, h2 {
+  font-family: 'Pacifico';
+  color: #484D6D;
+  text-shadow:  2px 0px 10px rgba(206, 162, 172, 0.5);
+
+}
+
+body {
+/*  background-color: #59114D;*/
+
+background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+p, h4, a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+a {
+  color: #59114D;
+  font-weight: bolder;
+}
+
+a:visited {
+  #59114D;
+}
+
+a:hover {
+  color: #C5979D;
+}
+
+.container {
+width: 700px;
+margin: 10px auto;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: #CCDDE2;
+  margin: 20px auto;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid #C5979D;
+  border-radius: 10px;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#img_round {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+  border: 2px solid #C5979D;
+}
+
+td {
+  padding: 15px;
+}
+
+.img_food {
+  width: 300px;
+  border: 2px solid #C5979D;
+  border-style: 2px solid;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  display: inline-block
+ }
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+i {
+  font-size: 35px;
+}
